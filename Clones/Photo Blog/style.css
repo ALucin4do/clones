@@ -1,25 +1,40 @@
 body{
     background: rgb(59,104,107);
     background: linear-gradient(90deg, rgba(59,104,107,1) 0%, rgba(47,79,79,1) 100%);
+    border-radius: 5px;
+}
+main{
+    font-family: cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    /* border: 5px solid red; */
+}
+
+main h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Estonia", cursive;
+    font-size: 64px ;
+    color: lightslategray;
 }
 
 nav{
     font-size: 1.5em;
     text-transform: uppercase;
     border-bottom: solid 3px darkslategray;
-    width: 30%;
-    margin-left: calc(10%/6);
+    width: 90%;
+    margin-left: 5%;
     padding: 0.8em 0;
     font-family: 'Raleway', sans-serif;
-    color:darkslategray;
-    
+    color:lightslategray;
+    text-align:left ;
 }
 
-main{
+
+
+section{
     display: flex;
-    background-color: coral;
+    /* background-color: coral; */
     width: 90%;
-    border: 5px solid seagreen;
+    /* border: 5px solid seagreen; */
     margin: 0 auto;
     flex-direction: row;
     justify-content: space-evenly;
@@ -30,6 +45,16 @@ main{
 
 img{
     width: 30%;
-    background-color: cornflowerblue
-    
+    /* background-color: cornflowerblue; */
+
+}
+
+img:hover{
+    transform: translate(0, -10px);
+    transition: 500ms ;
+}
+
+footer{
+    text-align: center;
+    color:lemonchiffon;
 }
