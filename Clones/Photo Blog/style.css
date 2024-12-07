@@ -1,0 +1,22 @@
+body{
+    background: rgb(59,104,107);
+    background: linear-gradient(90deg, rgba(59,104,107,1) 0%, rgba(47,79,79,1) 100%);
+}
+
+nav{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: solid 3px darkslategray;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 0.8em 0;
+    font-family: 'Raleway', sans-serif;
+    color:darkslategray;
+    
+}
+
+img{
+    width: 30%;
+    /* background-color: cornflowerblue */
+    margin: calc(10%/6);
+}
