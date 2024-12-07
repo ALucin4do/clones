@@ -15,8 +15,21 @@ nav{
     
 }
 
+main{
+    display: flex;
+    background-color: coral;
+    width: 90%;
+    border: 5px solid seagreen;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
 img{
     width: 30%;
-    /* background-color: cornflowerblue */
-    margin: calc(10%/6);
+    background-color: cornflowerblue
+    
 }
